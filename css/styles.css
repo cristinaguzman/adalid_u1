@@ -1,0 +1,352 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 20px;
+}
+
+.navbar .logo img {
+    height: 70px;
+    width: auto;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-left: 20px;
+}
+
+.nav-menu li a {
+    color: #045f9e;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-menu li a:hover {
+    background-color: #a2a2a3;
+    border-radius: 5px;
+}
+
+/* Sección de Bienvenida */
+.welcome {
+    background-image: url('https://i.ibb.co/Qb2s24N/medical-banner-with-doctor-wearing-face-mask.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh; /* Ocupa toda la altura de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.welcome2 {
+    background-image: url('https://i.ibb.co/hdcmY18/772943.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh; /* Ocupa toda la altura de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.welcome3 {
+    background-image: url('https://i.ibb.co/zRCBd0s/2956.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh; /* Ocupa toda la altura de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.welcome-content {
+    position: relative;
+    z-index: 1;
+}
+
+.welcome h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.welcome2 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+} 
+
+.welcome3 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+} 
+.welcome p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.welcome2 p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.welcome3 p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Sección de Servicios */
+.services {
+    padding: 40px 20px;
+}
+
+.services header h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.service-item {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+}
+
+.service-item img {
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+
+.service-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Sección de Testimonios */
+.testimonials {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonials header h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.testimonial-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #333;
+    display: inline-block;
+    text-align: left;
+}
+
+blockquote {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #555;
+}
+
+figcaption {
+    font-size: 16px;
+    color: #999;
+}
+
+/* Estilos para el formulario de contacto */
+.contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #005bb5;
+}
+
+/* Estilos para la sección del equipo médico */
+.team {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+    flex-basis: 22%;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.team-member p {
+    font-size: 0.9em;
+}
+
+
+/* Estilos para el footer */
+footer {
+    background-color: #045f9e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    margin: 10px;
+}
+
+.footer-column p {
+    margin: 5px 0;
+}
+
+ul.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul.social-media li {
+    margin: 0 10px;
+}
+
+ul.social-media li a img {
+    width: 30px;
+    height: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .services-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
